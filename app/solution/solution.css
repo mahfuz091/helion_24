@@ -1,0 +1,105 @@
+.common_banner-area {
+  background: url(../assets/images/cbannerbg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  border-radius: 30px;
+  border: 1px solid #e0ebf1;
+}
+
+.yield_automation h3 {
+  color: var(--Text-Colors-900, #09090b);
+
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%; /* 56px */
+  margin-top: 50px;
+  margin-bottom: 18px;
+}
+.yield_automation p,
+.yield_plans p,
+.yield_vision p {
+  color: #666;
+
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  margin-bottom: 15px;
+}
+.yield_vision p {
+  margin-bottom: 40px;
+}
+
+.yield_plans h3 {
+  margin-top: 101px;
+  color: var(--Text-Colors-900, #09090b);
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%;
+  margin-bottom: 16px;
+}
+.yield_vision h3 {
+  color: var(--Text-Colors-900, #09090b);
+
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 110%;
+  margin-top: 60px;
+  margin-bottom: 16px;
+}
+
+.generation_head h3 {
+  color: var(--Text-Colors-900, #09090b);
+
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%; /* 56px */
+}
+.generation_head p {
+  color: #666;
+
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 177.778% */
+}
+.generation_cards {
+  margin-top: 60px;
+  padding: 0 76px;
+}
+
+.generation_card {
+  padding: 30px;
+  border-radius: 20px;
+  border: 1px solid #e7eff1;
+  background: #fff;
+
+  box-shadow: 0px 161px 45px 0px rgba(171, 171, 171, 0),
+    0px 103px 41px 0px rgba(171, 171, 171, 0.01),
+    0px 58px 35px 0px rgba(171, 171, 171, 0.05),
+    0px 26px 26px 0px rgba(171, 171, 171, 0.09),
+    0px 6px 14px 0px rgba(171, 171, 171, 0.1);
+}
+.generation_card h4 {
+  color: var(--Text-Colors-900, #09090b);
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 110%; /* 35.2px */
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+.generation_card p {
+  color: #666;
+
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 177.778% */
+}

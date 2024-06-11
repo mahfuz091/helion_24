@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* group utilities  */
+@layer base {
+  body {
+    @apply text-[18px] text-text-color font-NeueMachina font-normal leading-[1.6];
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
+    @apply text-title-color font-bold;
+  }
+}
+
+.container {
+  @apply mx-auto 2xl:max-w-[1320px] xl:max-w-[1280px] lg:max-w-[960px] md:max-w-[720px] sm:max-w-[540px] px-4;
+}
+
+.main-title {
+  @apply text-[64px] leading-[1.2];
+}
+
+.thm_btn {
+  padding: 12px 20px;
+  border-radius: 134px;
+  background: var(--primary-color, #38b6ff);
+
+  /* s1 */
+  box-shadow: 0px 24px 34px 0px #c1deee;
+}
+.thm_btn a {
+  color: var(--Text-Colors-100, #f4f5f7);
+
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 21.6px */
+}
+/* Hide pagination on medium devices */
+.offcanvas.active {
+  left: 0;
+}
+
+.offcanvas:before {
+  position: absolute;
+  left: -100vh;
+  top: 0;
+  height: 100%;
+  width: 100vh;
+  content: "";
+  background: #000;
+  z-index: -1;
+  opacity: 0.5;
+  transition: 0.5s;
+}
+
+.offcanvas.active:before {
+  left: 0;
+}
+
+.card_gradient {
+  @apply bg-gradient-to-t to-[#4512B2] from-[#23074D] border border-[#D101FF];
+}
