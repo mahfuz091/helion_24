@@ -9,7 +9,7 @@ export default function homePage() {
       <Banner />
       <Features />
       <MissionVission />
-      <HomeContact />
+      {/* <HomeContact /> */}
     </div>
   );
 }

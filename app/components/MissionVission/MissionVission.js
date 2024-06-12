@@ -6,7 +6,7 @@ export default function MissionVission() {
   return (
     <>
       <section>
-        <div className='container 2xl:max-w-[1180px] '>
+        <div className='container 2xl:max-w-[1180px] lg:pb-[120px] pb-[80px] '>
           <div className='grid md:grid-cols-2 grid-cols-1 xl:gap-[60px] gap-[30px] lg:items-center mb-[40px]'>
             <div>
               <Image className='' src={MissionThumb} alt='mission thumb' />

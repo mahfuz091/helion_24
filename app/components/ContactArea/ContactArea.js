@@ -46,7 +46,7 @@ const ContactArea = () => {
             style={{ border: "1px solid rgba(0, 0, 0, 0.10)" }}
             className='px-[30px] py-[40px]  bg-[#F5F5F5] rounded-[20px]'
           >
-            <form action='' className='contact_form'>
+            <form action='#' className='contact_form'>
               <div className='grid grid-cols-1 md:grid-cols-2 gap-[20px] mb-[20px]'>
                 <div>
                   <input type='text' placeholder='First Name*' />
@@ -66,7 +66,7 @@ const ContactArea = () => {
               </div>
               <div>
                 <input
-                  className='thm_btn'
+                  className='thm_btn cursor-pointer'
                   type='submit'
                   value='Book a schedule call'
                 />
