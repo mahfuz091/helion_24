@@ -21,7 +21,7 @@
 }
 
 .main-title {
-  @apply text-[30px] lg:text-[64px] leading-[1.2];
+  @apply text-[30px] md:text-[64px] leading-[1.2];
 }
 
 .subtitle {
@@ -180,10 +180,10 @@
 /* Common Banner */
 
 .common_banner-area {
-  background: url(../app/assets/images/cbannerbg.png);
+  /* background: url(../app/assets/images/cbannerbg.png);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: contain;
+  background-size: cover; */
 
   border-radius: 30px;
   border: 1px solid #e0ebf1;

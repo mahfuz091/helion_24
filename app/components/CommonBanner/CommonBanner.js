@@ -1,11 +1,14 @@
 "use client";
 
 import React from "react";
+import BannerShapeTop from "@/app/assets/images/cbanner-shappe-top.png";
+import BannerShapeBottom from "@/app/assets/images/cbanner-shape-bottom.png";
+import Image from "next/image";
 
 const CommonBanner = ({ title }) => {
   return (
     <div className='container 2xl:max-w-[1460px]'>
-      <div className='common_banner-area py-16 md:py-[109px]'>
+      <div className='common_banner-area relative z-10 bg-gradient-to-l to-[#E9F7FF] from-[#C5EAFF] py-16 md:py-[109px]'>
         <p className='flex justify-center items-center gap-[6px] text-[18px] text-[#000] font-medium'>
           Home{" "}
           <svg
@@ -23,6 +26,16 @@ const CommonBanner = ({ title }) => {
           <span className='capitalize text-[#38B6FF] text-[18px]'>{title}</span>
         </p>
         <h2 className='main-title capitalize text-center'> {title}</h2>
+        <Image
+          className='absolute top-0 left-0 -z-10 2xl:max-w-auto xl:max-w-[200px] lg:max-w-[150px] md:max-w-[120px] max-w-[100px]'
+          src={BannerShapeTop}
+          alt='Banner shape top'
+        />
+        <Image
+          className='absolute bottom-0 right-0 z-10 2xl:max-w-auto xl:max-w-[300px] lg:max-w-[250px] md:max-w-[200px] max-w-[150px]'
+          src={BannerShapeBottom}
+          alt='Banner shape bottom'
+        />
       </div>
     </div>
   );
