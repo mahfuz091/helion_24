@@ -7,7 +7,7 @@ import Image from "next/image";
 
 const HomeContact = () => {
   return (
-    <div className='container  py-[0px] pb-[50px] lg:py-[120px] contact '>
+    <div className='container  py-[20px] pb-[50px] lg:py-[120px] contact '>
       <div className=' '>
         <div className='grid grid-cols-1 lg:grid-cols-2 gap-[30px] md:gap-[100px]'>
           <div className='contact_info md:py-[40px] md:px-[30px]'>
