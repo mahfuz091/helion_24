@@ -4,13 +4,14 @@ import React from "react";
 import BannerShapeTop from "@/app/assets/images/cbanner-shappe-top.png";
 import BannerShapeBottom from "@/app/assets/images/cbanner-shape-bottom.png";
 import Image from "next/image";
+import Link from "next/link";
 
 const CommonBanner = ({ title }) => {
   return (
     <div className='container 2xl:max-w-[1460px]'>
       <div className='common_banner-area relative z-10 bg-gradient-to-l to-[#E9F7FF] from-[#C5EAFF] py-16 md:py-[109px]'>
         <p className='flex justify-center items-center gap-[6px] text-[18px] text-[#000] font-medium'>
-          Home{" "}
+          <Link href='/'>Home</Link>
           <svg
             xmlns='http://www.w3.org/2000/svg'
             width='7'
