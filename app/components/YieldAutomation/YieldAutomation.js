@@ -4,11 +4,13 @@ import automation from "../../assets/images/automation.png";
 
 const YieldAutomation = () => {
   return (
-    <div className='container 2xl:max-w-[1460px] mt-[100px] '>
-      <div className='px-[76px] grid grid-cols-1 md:grid-cols-2 gap-[70px]'>
-        <Image src={automation} alt='automation' />
-        <div className='yield_automation'>
-          <h3>Seamless Yield Automation</h3>
+    <div className='container  pt-[40px]  xl:pt-[100px] '>
+      <div className=' grid grid-cols-1 lg:grid-cols-2 gap-[70px]'>
+        <Image className='self-center' src={automation} alt='automation' />
+        <div className='yield_automation self-center'>
+          <h3 className='text-[25px] xl:text-[40px]  mb-[14px] xl:mb-[18px]'>
+            Seamless Yield Automation
+          </h3>
           <p>
             At Helion EDGE, we specialize in delivering top-tier automated DeFi
             yield strategies designed to enhance your investment performance.

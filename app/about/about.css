@@ -1,11 +1,10 @@
 .yield_leading h3 {
   color: var(--Text-Colors-900, #09090b);
 
-  font-size: 48px;
   font-style: normal;
   font-weight: 700;
   line-height: 130%;
-  margin-top: 94px;
+
   margin-bottom: 16px;
 }
 .yield_leading P {
@@ -19,12 +18,10 @@
 .our_team h3 {
   color: var(--Text-Colors-900, #09090b);
   text-align: center;
-  font-size: 48px;
+
   font-style: normal;
   font-weight: 700;
   line-height: 110%; /* 52.8px */
-  margin-top: 120px;
-  margin-bottom: 80px;
 }
 
 .team_card {
@@ -56,4 +53,32 @@
   font-style: normal;
   font-weight: 400;
   line-height: 32px;
+  transition: all 0.3s ease-in-out;
+}
+.team_card {
+  position: relative;
+  overflow: hidden;
+}
+
+.team_card:hover .team-icon {
+  opacity: 1;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.team-icon {
+  position: absolute;
+  bottom: 125px;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.team-icon a {
+  display: inline-block;
+  transition: transform 0.3s ease-in-out;
+}
+
+.team_card:hover .team-icon a {
+  transform: translateY(-10px); /* Adjust for the desired effect */
 }

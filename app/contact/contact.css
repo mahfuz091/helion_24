@@ -1,0 +1,93 @@
+.contact .contact_info h3 {
+  color: var(--Text-Colors-900, #09090b);
+
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%;
+
+  margin-bottom: 16px;
+}
+.contact .contact_info > p {
+  color: #666;
+
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  margin-bottom: 30px;
+}
+
+.contact .contact_info .contact_info_desc p {
+  color: var(--Lite-Gray, #474852);
+
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 175% */
+}
+
+.contact .contact_info .contact_info_desc h6 {
+  color: #000;
+
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px; /* 166.667% */
+  letter-spacing: -0.36px;
+}
+
+.contact .contact_form input[type="text"],
+.contact .contact_form input[type="email"] {
+  padding: 14px 20px;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  background: #fff;
+  width: 100%;
+}
+.contact .contact_form textarea {
+  padding: 14px 20px;
+  height: 187px;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  background: #fff;
+  width: 100%;
+}
+.contact .contact_form .thm_btn {
+  color: var(--Text-Colors-50, #fff);
+
+  font-family: "Neue Machina";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 21.6px */
+  width: 100%;
+  box-shadow: none;
+  padding: 20px 30px;
+}
+.contact .contact_form ::placeholder {
+  color: var(--Lite-Gray, #474852);
+  font-family: "Neue Machina";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 187.5% */
+}
+
+.required::-webkit-input-placeholder:after {
+  content: "*";
+  color: red;
+}
+.required:-moz-placeholder:after {
+  /* Firefox 18- */
+  content: "*";
+  color: red;
+}
+.required::-moz-placeholder:after {
+  /* Firefox 19+ */
+  content: "*";
+  color: red;
+}
+.required:-ms-input-placeholder:after {
+  content: "*";
+  color: red;
+}

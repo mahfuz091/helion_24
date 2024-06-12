@@ -1,26 +1,26 @@
 import Image from "next/image";
 import React from "react";
-import oliver from "../../assets/images/oliver.png";
-import andress from "../../assets/images/andress.png";
-import eashana from "../../assets/images/eashana.png";
+import ali from "../../assets/images/ali.png";
+import bas from "../../assets/images/bas.png";
+import willium from "../../assets/images/willium.png";
 import facebook from "../../assets/images/Facebook.svg";
 import instagram from "../../assets/images/Instagram.svg";
 import linkedin from "../../assets/images/linkedin.svg";
 import youtube from "../../assets/images/Youtube.svg";
 import Link from "next/link";
 
-const Team = () => {
+const Advisory = () => {
   return (
-    <div className='container pt-[40px]  xl:pt-[100px] our_team '>
-      <div className=' '>
+    <div className='container py-[40px]  xl:py-[100px]  our_team '>
+      <div className=''>
         <h3 className='text-[30px] xl:text-[48px]  mb-[25px] xl:mb-[60px]'>
-          Our Team
+          Advisory Board
         </h3>
         <div className='grid grid-cols-1 md:grid-cols-3 gap-[30px]'>
           <div className='team_card relative'>
-            <Image src={oliver} alt='team' />
-            <h5>Oliver von Wolff</h5>
-            <p>Founder & CEO</p>
+            <Image src={ali} alt='team' />
+            <h5>Ali Jaffari</h5>
+
             <div className='team-icon flex items-center gap-[10px] absolute transition-opacity duration-300   opacity-0'>
               <Link href='https://www.linkedin.com/' target='_blank'>
                 <Image src={linkedin} alt='team' />
@@ -37,9 +37,9 @@ const Team = () => {
             </div>
           </div>
           <div className='team_card'>
-            <Image src={andress} alt='team' />
-            <h5>Andreas Segieth</h5>
-            <p>Business Development Manager</p>
+            <Image src={bas} alt='team' />
+            <h5>Bas Kooijman</h5>
+
             <div className='team-icon flex items-center gap-[10px] absolute transition-opacity duration-300   opacity-0'>
               <Link href='https://www.linkedin.com/' target='_blank'>
                 <Image src={linkedin} alt='team' />
@@ -56,9 +56,9 @@ const Team = () => {
             </div>
           </div>
           <div className='team_card'>
-            <Image src={eashana} alt='team' />
-            <h5>Eshana Lutawan</h5>
-            <p>Marketing Manager</p>
+            <Image src={willium} alt='team' />
+            <h5>William Aweida</h5>
+
             <div className='team-icon flex items-center gap-[10px] absolute transition-opacity duration-300   opacity-0'>
               <Link href='https://www.linkedin.com/' target='_blank'>
                 <Image src={linkedin} alt='team' />
@@ -80,4 +80,4 @@ const Team = () => {
   );
 };
 
-export default Team;
+export default Advisory;

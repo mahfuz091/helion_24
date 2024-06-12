@@ -1,22 +1,9 @@
-.common_banner-area {
-  background: url(../assets/images/cbannerbg.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-
-  border-radius: 30px;
-  border: 1px solid #e0ebf1;
-}
-
 .yield_automation h3 {
   color: var(--Text-Colors-900, #09090b);
 
-  font-size: 40px;
   font-style: normal;
   font-weight: 700;
   line-height: 140%; /* 56px */
-  margin-top: 50px;
-  margin-bottom: 18px;
 }
 .yield_automation p,
 .yield_plans p,
@@ -34,9 +21,8 @@
 }
 
 .yield_plans h3 {
-  margin-top: 101px;
   color: var(--Text-Colors-900, #09090b);
-  font-size: 40px;
+
   font-style: normal;
   font-weight: 700;
   line-height: 130%;
@@ -49,7 +35,7 @@
   font-style: normal;
   font-weight: 700;
   line-height: 110%;
-  margin-top: 60px;
+
   margin-bottom: 16px;
 }
 
@@ -71,7 +57,6 @@
 }
 .generation_cards {
   margin-top: 60px;
-  padding: 0 76px;
 }
 
 .generation_card {
@@ -91,15 +76,14 @@
   font-size: 32px;
   font-style: normal;
   font-weight: 700;
-  line-height: 110%; /* 35.2px */
+  line-height: 110%;
   margin-top: 30px;
   margin-bottom: 10px;
 }
 .generation_card p {
   color: #666;
-
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
-  line-height: 32px; /* 177.778% */
+  line-height: 32px;
 }

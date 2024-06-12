@@ -1,6 +1,7 @@
 import "@/public/fonts/Neue-machina/stylesheet.css";
 import "./globals.css";
-import Header from "@/app/components/Header/Header"
+import Header from "@/app/components/Header/Header";
+import Footer from "./components/Footer/Footer";
 
 export const metadata = {
   title: "Helion",
@@ -8,16 +9,13 @@ export const metadata = {
 };
 
 export default function RootLayout({ children }) {
-
   return (
-    <html lang="en">
+    <html lang='en'>
       <body>
         <Header />
         {children}
-
+        <Footer />
       </body>
     </html>
   );
-
-
 }

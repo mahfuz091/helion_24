@@ -7,9 +7,9 @@ import customized from "../../assets/images/customized.png";
 
 const Generation = () => {
   return (
-    <div className='container 2xl:max-w-[1460px] mt-[100px] generation'>
-      <div className='px-[76px] grid grid-cols-1 md:grid-cols-2 gap-[16px] generation_head'>
-        <h3>
+    <div className='container  pt-[40px]  xl:pt-[100px] generation'>
+      <div className=' grid grid-cols-1 md:grid-cols-2 gap-[16px] generation_head'>
+        <h3 className='text-[25px] xl:text-[40px]  '>
           Next-Generation On-Chain, Non-Custodial & Automated Digital Asset
           Management Platform
         </h3>

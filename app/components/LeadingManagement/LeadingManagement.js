@@ -4,10 +4,12 @@ import leading from "../../assets/images/leading.png";
 
 const LeadingManagement = () => {
   return (
-    <div className='container 2xl:max-w-[1460px] mt-[100px] '>
-      <div className='px-[76px] grid grid-cols-1 md:grid-cols-2 gap-[99px]'>
-        <div className='yield_leading'>
-          <h3>Leading the Future of Asset Management</h3>
+    <div className='container pt-[40px]  xl:pt-[100px] '>
+      <div className='grid grid-cols-1 md:grid-cols-2 gap-[30px] lg:gap-[99px]  '>
+        <div className='yield_leading self-center '>
+          <h3 className='text-[30px] xl:text-[48px]  '>
+            Leading the Future of Asset Management
+          </h3>
           <p>
             Akkrue is a specialized entity operating at the intersection of
             technology and finance, dedicated to providing advanced solutions in

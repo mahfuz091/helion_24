@@ -4,10 +4,10 @@ import vision from "../../assets/images/vision.png";
 
 const OurVision = () => {
   return (
-    <div className='container 2xl:max-w-[1460px] mt-[100px] '>
-      <div className='px-[76px] grid grid-cols-1 md:grid-cols-2 gap-[99px]'>
-        <div className='yield_vision'>
-          <h3>Invest in Our Vision</h3>
+    <div className='container  py-[40px]  xl:py-[100px]  '>
+      <div className='grid grid-cols-1 md:grid-cols-2 gap-[99px]'>
+        <div className='yield_vision self-center'>
+          <h3 className='text-[25px] xl:text-[40px]  '>Invest in Our Vision</h3>
           <p>
             We are excited to invite you to be part of the future of digital
             asset management. By investing in Helion Edge, you support a
@@ -18,7 +18,7 @@ const OurVision = () => {
             <a href=''>Contact Us</a>
           </button>
         </div>
-        <Image src={vision} alt='vision' />
+        <Image className='self-center' src={vision} alt='vision' />
       </div>
     </div>
   );
