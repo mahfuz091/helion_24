@@ -5,8 +5,8 @@ import vision from "../../assets/images/vision.png";
 const OurVision = () => {
   return (
     <div className='container  py-[40px]  xl:py-[100px]  '>
-      <div className='grid grid-cols-1 md:grid-cols-2 gap-[99px]'>
-        <div className='yield_vision self-center'>
+      <div className='grid grid-cols-1 md:grid-cols-12 xl:gap-[60px] gap-[30px]'>
+        <div className='yield_vision self-center col-span-1 md:col-span-7 xl:col-span-8'>
           <h3 className='text-[25px] xl:text-[40px]  '>Invest in Our Vision</h3>
           <p>
             We are excited to invite you to be part of the future of digital
@@ -18,7 +18,9 @@ const OurVision = () => {
             <a href=''>Contact Us</a>
           </button>
         </div>
-        <Image className='self-center' src={vision} alt='vision' />
+        <div className='col-span-1 md:col-span-5 xl:col-span-4 '>
+          <Image className='self-center' src={vision} alt='vision' />
+        </div>
       </div>
     </div>
   );

@@ -5,10 +5,12 @@ import automation from "../../assets/images/automation.png";
 const YieldAutomation = () => {
   return (
     <div className='container  pt-[40px]  xl:pt-[100px] '>
-      <div className=' grid grid-cols-1 lg:grid-cols-2 gap-[70px]'>
-        <Image className='self-center' src={automation} alt='automation' />
-        <div className='yield_automation self-center'>
-          <h3 className='text-[25px] xl:text-[40px]  mb-[14px] xl:mb-[18px]'>
+      <div className='grid grid-cols-1 lg:grid-cols-12 gap-[30px] md:gap-[70px]'>
+        <div className='col-span-1 md:w-[50%] lg:w-full lg:col-span-4'>
+          <Image className='' src={automation} alt='automation' />
+        </div>
+        <div className='yield_automation   lg:col-span-8'>
+          <h3 className='text-[25px] xl:text-[35px]  mb-[14px] xl:mb-[18px]'>
             Seamless Yield Automation
           </h3>
           <p>

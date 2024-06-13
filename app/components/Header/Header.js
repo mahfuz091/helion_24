@@ -6,7 +6,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { HiMiniBars3BottomRight } from "react-icons/hi2";
 import { FaTimesCircle } from "react-icons/fa";
-import HeaderLogo from "@/public/images/logo.png";
+import HeaderLogo from "@/public/images/logo.svg";
 import { IconContext } from "react-icons";
 
 export default function Header() {
@@ -26,16 +26,16 @@ export default function Header() {
       <div
         className={`${
           isActive ? "left-0" : "-left-[100vw]"
-        } fixed top-0 h-full w-[100vw] bg-black z-[45] opacity-50 transition-[opacity] transition-all duration-500`}
+        } fixed top-0 h-full w-[100vw] bg-black z-[9999999999999] opacity-50 transition-[opacity] transition-all duration-500`}
         onClick={handleClose}
       ></div>
       <header
         header
-        className='py-[30px] relative top-0 w-full z-40 bg-transparent'
+        className='py-[30px] relative top-0 w-full z-[999999] bg-transparent'
       >
         <div className='container flex items-center justify-between'>
           <Link href='/'>
-            <Image src={HeaderLogo} alt='Header logo' />
+            <Image width={148} src={HeaderLogo} alt='Header logo' />
           </Link>
           <ul className='ml-auto lg:flex xl:space-x-[20px] lg:space-x-[30px] xl:text-[18px] lg:text-[16px] font-medium text-[#111111] hidden'>
             <li>
@@ -90,7 +90,7 @@ export default function Header() {
       <div
         className={`${
           isActive ? "active" : "closed"
-        } offcanvas w-[250px] px-[15px] py-[20px] h-full fixed z-50 bg-white top-0 lg:hidden left-[-250px] transition-all`}
+        } offcanvas w-[250px] px-[15px] py-[20px] h-full fixed z-[99999999999] bg-white top-0 lg:hidden left-[-250px] transition-all`}
       >
         <FaTimesCircle
           className='absolute right-[15px] top-[25px] z-10 text-title-color text-[24px]'
@@ -98,7 +98,7 @@ export default function Header() {
         ></FaTimesCircle>
         <div className='logo mb-[30px]'>
           <Link href='/'>
-            <img src={HeaderLogo.src} alt='' />
+            <Image width={140} src={HeaderLogo} alt='' />
           </Link>
         </div>
         <ul className='space-y-[15px] text-[16px] font-medium text-title-color mb-[20px]'>

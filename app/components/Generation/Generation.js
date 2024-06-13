@@ -24,7 +24,7 @@ const Generation = () => {
         </p>
       </div>
       <div className='generation_cards'>
-        <div className='grid grid-cols-1 md:grid-cols-2 gap-[20px]'>
+        <div className='grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-[20px]'>
           <div className='generation_card'>
             <Image src={audit} alt='audit' />
             <h4>Non-Custodial & Audited</h4>

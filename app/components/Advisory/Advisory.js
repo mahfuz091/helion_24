@@ -2,7 +2,7 @@ import Image from "next/image";
 import React from "react";
 import ali from "../../assets/images/ali.png";
 import bas from "../../assets/images/bas.png";
-import willium from "../../assets/images/willium.png";
+import gustavo from "../../assets/images/gustavo.png";
 import facebook from "../../assets/images/Facebook.svg";
 import instagram from "../../assets/images/Instagram.svg";
 import linkedin from "../../assets/images/linkedin.svg";
@@ -25,7 +25,7 @@ const Advisory = () => {
               <Link href='https://www.linkedin.com/' target='_blank'>
                 <Image src={linkedin} alt='team' />
               </Link>
-              <Link href='https://www.facebook.com/' target='_blank'>
+              {/* <Link href='https://www.facebook.com/' target='_blank'>
                 <Image src={facebook} alt='team' />
               </Link>
               <Link href='https://www.instagram.com/' target='_blank'>
@@ -33,7 +33,7 @@ const Advisory = () => {
               </Link>
               <Link href='https://www.youtube.com/' target='_blank'>
                 <Image src={youtube} alt='team' />
-              </Link>
+              </Link> */}
             </div>
           </div>
           <div className='team_card'>
@@ -44,7 +44,7 @@ const Advisory = () => {
               <Link href='https://www.linkedin.com/' target='_blank'>
                 <Image src={linkedin} alt='team' />
               </Link>
-              <Link href='https://www.facebook.com/' target='_blank'>
+              {/* <Link href='https://www.facebook.com/' target='_blank'>
                 <Image src={facebook} alt='team' />
               </Link>
               <Link href='https://www.instagram.com/' target='_blank'>
@@ -52,18 +52,18 @@ const Advisory = () => {
               </Link>
               <Link href='https://www.youtube.com/' target='_blank'>
                 <Image src={youtube} alt='team' />
-              </Link>
+              </Link> */}
             </div>
           </div>
           <div className='team_card'>
-            <Image src={willium} alt='team' />
-            <h5>William Aweida</h5>
+            <Image src={gustavo} alt='team' />
+            <h5>Gustavo Montero</h5>
 
             <div className='team-icon flex items-center gap-[10px] absolute transition-opacity duration-300   opacity-0'>
               <Link href='https://www.linkedin.com/' target='_blank'>
                 <Image src={linkedin} alt='team' />
               </Link>
-              <Link href='https://www.facebook.com/' target='_blank'>
+              {/* <Link href='https://www.facebook.com/' target='_blank'>
                 <Image src={facebook} alt='team' />
               </Link>
               <Link href='https://www.instagram.com/' target='_blank'>
@@ -71,7 +71,7 @@ const Advisory = () => {
               </Link>
               <Link href='https://www.youtube.com/' target='_blank'>
                 <Image src={youtube} alt='team' />
-              </Link>
+              </Link> */}
             </div>
           </div>
         </div>

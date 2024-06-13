@@ -1,0 +1,89 @@
+/*----------------
+       banner
+--------------- */
+
+.banner_v2 {
+  background: url(../../assets/images/Cubes.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  z-index: 999;
+}
+
+.banner_v2 .banner_content {
+  padding: 126px 0 166px 0;
+}
+.banner_v2 .banner_content h1 {
+  color: var(--Text-Colors-800, #33333f);
+  font-feature-settings: "clig" off, "liga" off;
+
+  /* Display/Display • Bold •64 • 110% */
+  font-family: var(--font-neue-machina);
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 110%; /* 70.4px */
+  margin-bottom: 24px;
+}
+.banner_v2 .banner_content h1 span {
+  color: var(--primary-color, #38b6ff);
+}
+.banner_v2 .banner_content h1 img {
+  margin-left: 25px;
+}
+.banner_v2 .banner_content p {
+  color: var(--Text-Colors-800, #33333f);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: var(--font-neue-machina);
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%; /* 26.4px */
+  margin-bottom: 40px;
+}
+
+.talk_btn {
+  padding: 20px 40px;
+  position: relative;
+  z-index: 99999999;
+}
+
+.banner_image {
+  position: absolute;
+  top: -60px;
+  right: 180px;
+}
+
+@media (max-width: 1200px) {
+  .banner_v2 .banner_content h1 {
+    font-size: 50px;
+  }
+}
+
+@media (max-width: 991px) {
+  .banner_image {
+    max-width: 100%;
+    margin-top: -200px;
+    margin-left: -50px;
+    position: relative;
+    top: 0;
+    right: 0;
+  }
+  .banner_v2 .banner_content h1 {
+    font-size: 40px;
+  }
+}
+@media (max-width: 768px) {
+  .banner_v2 .banner_content {
+    padding: 60px 0;
+  }
+  .banner_image {
+    max-width: 100%;
+    margin-top: -100px;
+    margin-left: -50px;
+    position: relative;
+    top: 0;
+    right: 0;
+  }
+}

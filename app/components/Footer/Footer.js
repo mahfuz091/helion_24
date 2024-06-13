@@ -9,11 +9,11 @@ const Footer = () => {
   return (
     <div className='footer'>
       <div className='container py-[60px]  xl:py-[120px]  '>
-        <div className='grid grid-cols-1 md:grid-cols-2 xl:grid-cols-12 gap-4'>
+        <div className='grid grid-cols-1 md:grid-cols-2 xl:grid-cols-12 gap-[55px]'>
           <div className='col-span-1 md:col-span-1  xl:col-span-3'>
             <Image src={logo} alt='' />
             <p>
-              Helion EDGE: Elevate your trading with our advanced automated
+              Helion Edge: Elevate your trading with our advanced automated
               strategies.
             </p>
             <div className='socials'>
@@ -134,7 +134,7 @@ const Footer = () => {
               </li>
             </ul>
           </div>
-          <div className='col-span-1 md:col-span-1  xl:col-span-3'>
+          <div className='col-span-1 md:col-span-1  xl:col-span-4'>
             <h3>Quick Links</h3>
             <ul className='links'>
               <li>
@@ -180,14 +180,14 @@ const Footer = () => {
               </li>
             </ul>
           </div>
-          <div className='col-span-1 md:col-span-1  xl:col-span-4'>
+          <div className='col-span-1 md:col-span-1  xl:col-span-3'>
             <h3>Newsletter</h3>
             <p style={{ maxWidth: "326px" }}>
               Subscribe and stay up-to-date on the latest news.
             </p>
-            <div className='flex md:flex-col xl:flex-row'>
+            <div className='flex flex-col '>
               <input type='text' placeholder='Enter your email' />
-              <button type='submit' className=' lets_talk_btn md:mt-3 xl:mt-0'>
+              <button type='submit' className=' lets_talk_btn mt-3 '>
                 Lets Talk
                 <svg
                   xmlns='http://www.w3.org/2000/svg'

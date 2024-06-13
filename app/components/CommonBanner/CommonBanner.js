@@ -26,14 +26,14 @@ const CommonBanner = ({ title }) => {
           </svg>
           <span className='capitalize text-[#38B6FF] text-[18px]'>{title}</span>
         </p>
-        <h2 className='main-title capitalize text-center'> {title}</h2>
+        <h2 className='main-title capitalize text-center mt-2'> {title}</h2>
         <Image
           className='absolute top-0 left-0 -z-10 2xl:max-w-auto xl:max-w-[200px] lg:max-w-[150px] md:max-w-[120px] max-w-[100px]'
           src={BannerShapeTop}
           alt='Banner shape top'
         />
         <Image
-          className='absolute bottom-0 right-0 z-10 2xl:max-w-auto xl:max-w-[300px] lg:max-w-[250px] md:max-w-[200px] max-w-[150px]'
+          className='absolute hidden bottom-0 right-0 z-10 2xl:max-w-auto xl:max-w-[300px] lg:max-w-[250px] md:max-w-[200px] max-w-[150px]'
           src={BannerShapeBottom}
           alt='Banner shape bottom'
         />
