@@ -26,7 +26,7 @@
   line-height: 28px; /* 175% */
 }
 
-.contact .contact_info .contact_info_desc h6 {
+.contact .contact_info .contact_info_desc a {
   color: #000;
 
   font-size: 18px;

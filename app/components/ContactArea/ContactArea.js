@@ -23,21 +23,23 @@ const ContactArea = () => {
                 <Image src={call} alt='call' />
                 <div>
                   <p>Phone Number</p>
-                  <h6>+971 (0)4 548 0355</h6>
+                  <a href='tel:+971045480355'>+971 (0)4 548 0355</a>
                 </div>
               </div>
               <div className='flex items-start gap-[20px] mb-[20px]'>
                 <Image src={email} alt='email' />
                 <div>
                   <p>Email Address</p>
-                  <h6>info@helion-edge.com</h6>
+                  <a href='mailto:"info@helion-edge.com'>
+                    info@helion-edge.com
+                  </a>
                 </div>
               </div>
               <div className='flex items-start gap-[20px]'>
                 <Image src={loc} alt='loc' />
                 <div>
                   <p>Office Address</p>
-                  <h6>Burj Daman Tower, Dubai, UAE Office 1102C</h6>
+                  <a>Burj Daman Tower, Dubai, UAE Office 1102C</a>
                 </div>
               </div>
             </div>
