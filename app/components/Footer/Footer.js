@@ -187,7 +187,10 @@ const Footer = () => {
             </p>
             <div className='flex flex-col '>
               <input type='text' placeholder='Enter your email' />
-              <button type='submit' className=' lets_talk_btn mt-3 '>
+              <button
+                type='submit'
+                className=' lets_talk_btn mt-3   inline-block transition-all duration-300 hover:bg-title-color'
+              >
                 Lets Talk
                 <svg
                   xmlns='http://www.w3.org/2000/svg'

@@ -51,6 +51,15 @@
   font-weight: 700;
   line-height: 120%; /* 21.6px */
 }
+
+.talk_btn {
+  color: var(--Text-Colors-100, #f4f5f7);
+
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 21.6px */
+}
 /* Hide pagination on medium devices */
 
 .offcanvas:before {
