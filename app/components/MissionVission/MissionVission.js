@@ -12,7 +12,7 @@ export default function MissionVission() {
               <Image className='' src={MissionThumb} alt='mission thumb' />
             </div>
             <div className='col-span-1 md:col-span-7 xl:col-span-8'>
-              <h4 className='subtitle mb-[5px]'>About Helion Edge</h4>
+              {/* <h4 className='subtitle mb-[5px]'>About Helion Edge</h4> */}
               <h2 className='section-title mb-[15px]'>Our Mission</h2>
               <p>
                 At Helion Edge, we aim to revolutionize asset management by
@@ -27,7 +27,7 @@ export default function MissionVission() {
               <Image className='' src={VissionThumb} alt='mission thumb' />
             </div>
             <div className='col-span-1 md:col-span-7 xl:col-span-8 md:order-1'>
-              <h4 className='subtitle mb-[5px]'>About Helion Edge</h4>
+              {/* <h4 className='subtitle mb-[5px]'>About Helion Edge</h4> */}
               <h2 className='section-title mb-[15px]'>Our Vision</h2>
               <p>
                 To be the leading non-custodial asset management platform,

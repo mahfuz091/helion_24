@@ -63,6 +63,13 @@
   position: relative;
   overflow: hidden;
 }
+.team_card.team h5 {
+  font-size: 21px;
+}
+.team.team_card p {
+  font-size: 16px;
+  line-height: 18px;
+}
 
 .team_card:hover .team-icon {
   opacity: 1;

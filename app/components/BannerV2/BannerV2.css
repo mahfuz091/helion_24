@@ -54,14 +54,22 @@
   top: -60px;
   right: 180px;
 }
+@media (max-width: 1700px) {
+  .banner_image {
+    right: 20px;
+  }
+}
 
 @media (max-width: 1200px) {
   .banner_v2 .banner_content h1 {
     font-size: 50px;
   }
+  .banner_image {
+    right: -20px;
+  }
 }
 
-@media (max-width: 991px) {
+@media (max-width: 1023px) {
   .banner_image {
     max-width: 100%;
     margin-top: -200px;
@@ -72,6 +80,9 @@
   }
   .banner_v2 .banner_content h1 {
     font-size: 40px;
+  }
+  .banner_v2 .banner_content {
+    padding: 60px 0;
   }
 }
 @media (max-width: 768px) {
