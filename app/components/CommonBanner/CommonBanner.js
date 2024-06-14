@@ -9,7 +9,7 @@ import Link from "next/link";
 const CommonBanner = ({ title }) => {
   return (
     <div className='container 2xl:max-w-[1460px]'>
-      <div className='common_banner-area relative z-10 bg-gradient-to-l to-[#E9F7FF] from-[#C5EAFF] py-16 md:py-[109px]'>
+      <div className='common_banner-area relative z-10 bg-gradient-to-l to-[#E9F7FF] from-[#C5EAFF] py-16 lg:py-[109px]'>
         <p className='flex justify-center items-center gap-[6px] text-[18px] text-[#000] font-medium'>
           <Link href='/'>Home</Link>
           <svg

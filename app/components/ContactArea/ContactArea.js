@@ -6,7 +6,7 @@ import Image from "next/image";
 
 const ContactArea = () => {
   return (
-    <div className='container  py-[0px] pb-[50px] lg:py-[120px] contact '>
+    <div className='container  py-[50px]  lg:py-[120px] contact '>
       {/* px-[15px] md:px-[76px] */}
       <div className=' '>
         <div className='grid grid-cols-1 lg:grid-cols-2 gap-[100px]'>
