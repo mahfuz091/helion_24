@@ -9,6 +9,7 @@ import SliderIcon1 from "@/app/assets/images/slider-icon1.png";
 import SliderIcon2 from "@/app/assets/images/slider-icon2.png";
 import SliderIcon3 from "@/app/assets/images/slider-icon3.png";
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
+import Link from "next/link";
 
 const CustomPrevArrow = ({ onClick, isHidden }) => (
   <span
@@ -173,6 +174,15 @@ export default function InnovativeStrategies() {
                 </div>
               </div>
             </Slider>
+          </div>
+          <div className='text-center mt-[30px]'>
+            <Link
+              className='mt-6  bg-primary-color py-[11px] px-[20px] text-[#F4F5F7] font-bold rounded-full shadow-[0_24px_34px_#C1DEEE] inline-block transition-all duration-300 hover:bg-title-color'
+              href='https://www.helion-edge.io/'
+              target='_blank'
+            >
+              Explorer our strategies
+            </Link>
           </div>
         </div>
       </section>
