@@ -13,7 +13,9 @@ const Footer = () => {
       <div className='container py-[60px]  xl:py-[120px]  '>
         <div className='grid grid-cols-1 md:grid-cols-2 xl:grid-cols-12 gap-[55px]'>
           <div className='col-span-1 md:col-span-1  xl:col-span-3'>
-            <Image src={logo} alt='' />
+            <Link href='/'>
+              <Image src={logo} alt='' />
+            </Link>
             <p>
               Helion Edge: Elevate your trading with our advanced automated
               strategies.
