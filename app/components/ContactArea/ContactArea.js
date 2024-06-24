@@ -44,11 +44,8 @@ const ContactArea = () => {
               </div>
             </div>
           </div>
-          <div
-            style={{ border: "1px solid rgba(0, 0, 0, 0.10)" }}
-            className='px-[30px] py-[40px]  bg-[#F5F5F5] rounded-[20px]'
-          >
-            <form action='#' className='contact_form'>
+          <div className='contact_iframe'>
+            {/* <form action='#' className='contact_form'>
               <div className='grid grid-cols-1 md:grid-cols-2 gap-[20px] mb-[20px]'>
                 <div>
                   <input type='text' placeholder='First Name*' />
@@ -73,7 +70,12 @@ const ContactArea = () => {
                   value='Book a schedule call'
                 />
               </div>
-            </form>
+            </form> */}
+            <iframe
+              style={{ width: "100%" }}
+              src='https://app.pipefy.com/public/form/sXkUHxYM'
+              frameborder='0'
+            ></iframe>
           </div>
         </div>
       </div>
